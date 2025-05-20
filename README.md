@@ -49,23 +49,6 @@ The release build will have optimizations enabled for better performance. This w
 
 Users can download the DMG file from the releases page, double-click to mount it, and drag the app to their Applications folder.
 
-### Publishing to GitHub
-
-If you want to push your changes to GitHub:
-
-```bash
-git add .
-git commit -m "Your commit message"
-git push origin main  # Or the appropriate branch
-```
-
-To create a new release with the built DMG file:
-1. Push your changes to GitHub
-2. Go to your GitHub repository page
-3. Click on "Releases" in the right sidebar
-4. Click "Create a new release"
-5. Upload the DMG file from the `dist` directory
-
 ## Troubleshooting
 
 If you encounter any issues:
